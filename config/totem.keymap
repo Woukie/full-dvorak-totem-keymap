@@ -41,7 +41,7 @@
         emoji_sob: emoji_sob {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(LS(U)) &kp N1 &kp LS(F) &kp N6 &kp N2 &kp LS(D)>;
+            bindings = <&kp LC(LS(U)) &kp N1 &kp F &kp N6 &kp N2 &kp D &kp ENTER>;
             label = "EMOJI_SOB";
         };
     };
