@@ -28,7 +28,23 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        emojis {
+            bindings = <&mo 3>;
+            key-positions = <33 34>;
+        };
+    };
+
+    macros {
+        emoji_sob: emoji_sob {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LS(U)) &kp N1 &kp LS(F) &kp N6 &kp N2 &kp LS(D)>;
+            label = "EMOJI_SOB";
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -74,6 +90,15 @@
                 &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
 &studio_unlock  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                                 &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        emojis {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &emoji_sob    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans        &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans        &trans  &trans  &trans
             >;
         };
 
