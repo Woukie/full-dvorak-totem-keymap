@@ -38,11 +38,60 @@
     };
 
     macros {
-        emoji_sob: emoji_sob {
+        emoji_brownify: emoji_brownify {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(LS(U)) &kp N1 &kp F &kp N6 &kp N2 &kp D &kp ENTER>;
-            label = "EMOJI_SOB";
+            bindings = <&kp LS(LC(U)) &kp N1 &kp F &kp N3 &kp F &kp F &kp RET>;
+            label = "EMOJI_BROWNIFY";
+        };
+
+        emoji_whiteify: emoji_whiteify {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LS(U)) &kp N1 &kp F &kp N3 &kp F &kp B &kp RET>;
+            label = "EMOJI_WHITEIFY";
+        };
+
+        emoji_pregant_man: emoji_pregant_man {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LS(U)) &kp N1 &kp F &kp A &kp C &kp N3 &kp RET>;
+            label = "EMOJI_PREGANT_MAN";
+        };
+
+        emoji_joy: emoji_joy {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LC(U)) &kp N1 &kp F &kp N6 &kp N0 &kp N2 &kp RET>;
+            label = "EMOJI_JOY";
+        };
+
+        emoji_sob: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LS(U)) &kp N1 &kp F &kp N6 &kp N2 &kp D &kp RET>;
+            label = "NEW_MACRO";
+        };
+
+        emoji_rofl: emoji_rofl {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LS(U)) &kp N1 &kp F &kp N9 &kp N2 &kp N3 &kp RET>;
+            label = "EMOJI_ROFL";
+        };
+
+        emoji_thumbs_down: emoji_thumbs_down {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LC(U)) &kp N1 &kp F &kp N4 &kp N4 &kp E &kp RET>;
+            label = "EMOJI_THUMBS_DOWN";
+        };
+
+        emoji_thumbs_up: emoji_thumbs_up {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(LC(U)) &kp N1 &kp F &kp N4 &kp N4 &kp D &kp RET>;
+            label = "EMOJI_THUMBS_UP";
         };
     };
 
