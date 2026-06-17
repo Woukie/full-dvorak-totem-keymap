@@ -130,7 +130,7 @@
         layer_2 {
             bindings = <
                 &trans          &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                &trans          &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                &bt BT_NXT      &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
 &studio_unlock  &bt BT_CLR_ALL  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                                         &trans  &trans  &mo 3     &trans  &trans  &trans
             >;
@@ -138,10 +138,10 @@
 
         emojis {
             bindings = <
-                &trans  &trans  &trans           &trans           &trans    &trans  &emoji_thumbs_up    &trans              &trans       &trans
-                &trans  &trans  &emoji_whiteify  &emoji_brownify  &trans    &trans  &emoji_sob          &emoji_pregant_man  &emoji_rofl  &trans
-&studio_unlock  &trans  &trans  &trans           &trans           &trans    &trans  &emoji_thumbs_down  &emoji_joy          &trans       &trans  &trans
-                                &trans           &trans           &trans    &trans  &trans              &trans
+        &trans  &trans  &trans           &trans           &trans    &trans  &emoji_thumbs_up    &trans              &trans       &trans
+        &trans  &trans  &emoji_whiteify  &emoji_brownify  &trans    &trans  &emoji_sob          &emoji_pregant_man  &emoji_rofl  &trans
+&trans  &trans  &trans  &trans           &trans           &trans    &trans  &emoji_thumbs_down  &emoji_joy          &trans       &trans  &trans
+                        &trans           &trans           &trans    &trans  &trans              &trans
             >;
         };
 
