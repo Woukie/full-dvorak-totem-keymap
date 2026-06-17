@@ -126,28 +126,28 @@
 
         numerical {
             bindings = <
-                &trans  &trans  &trans  &trans  &trans    &kp N7  &kp N8  &kp N9  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans    &kp N4  &kp N5  &kp N6  &trans  &trans
-&studio_unlock  &trans  &trans  &trans  &trans  &trans    &kp N1  &kp N2  &kp N3  &trans  &trans  &trans
-                                &trans  &trans  &trans    &mo 3   &trans  &kp N0
+        &trans  &trans  &trans  &trans  &trans    &trans  &kp N7  &kp N8  &kp N9  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &kp N4  &kp N5  &kp N6  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
+                        &trans  &trans  &trans    &mo 3   &kp N0  &trans
             >;
         };
 
         navigation {
             bindings = <
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-&studio_unlock  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                                &trans  &trans  &mo 3     &trans  &trans  &trans
+           &trans  &trans  &trans    &trans   &trans    &trans  &trans    &trans    &trans     &trans
+           &trans  &trans  &kp HOME  &kp END  &trans    &trans  &kp LEFT  &kp UP    &kp RIGHT  &trans
+&kp LCTRL  &trans  &trans  &trans    &trans   &trans    &trans  &trans    &kp DOWN  &trans     &trans  &trans
+                           &trans    &trans   &mo 3     &trans  &trans    &trans
             >;
         };
 
         emojis {
             bindings = <
-        &trans  &trans  &trans  &trans           &trans             &emoji_thumbs_up  &emoji_thumbs_down  &trans              &trans       &trans
-        &trans  &trans  &trans  &emoji_brownify  &emoji_whiteify    &emoji_joy        &emoji_sob          &emoji_pregant_man  &emoji_rofl  &trans
-&trans  &trans  &trans  &trans  &trans           &trans             &trans            &trans              &trans              &trans       &trans  &trans
-                        &trans  &trans           &trans             &trans            &trans              &trans
+                &trans  &trans  &trans           &trans           &trans    &trans  &emoji_thumbs_up    &trans              &trans       &trans
+                &trans  &trans  &emoji_whiteify  &emoji_brownify  &trans    &trans  &emoji_sob          &emoji_pregant_man  &emoji_rofl  &trans
+&studio_unlock  &trans  &trans  &trans           &trans           &trans    &trans  &emoji_thumbs_down  &emoji_joy          &trans       &trans  &trans
+                                &trans           &trans           &trans    &trans  &trans              &trans
             >;
         };
 
