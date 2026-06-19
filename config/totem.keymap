@@ -111,10 +111,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp SQT        &kp COMMA  &kp PERIOD  &kp P  &kp Y        &kp F      &kp G  &kp C  &kp R  &kp L
-         &kp A          &kp O      &kp E       &kp U  &kp I        &kp D      &kp H  &kp T  &kp N  &kp S
-&kp DEL  &kp SEMICOLON  &kp Q      &kp J       &kp K  &kp X        &kp B      &kp M  &kp W  &kp V  &kp Z  &kp BACKSPACE
-                                   &mo 1       &mo 7  &kp SPACE    &kp ENTER  &mo 8  &mo 2
+         &kp SQT        &kp COMMA  &kp DOT  &kp P  &kp Y        &kp F      &kp G  &kp C  &kp R  &kp L
+         &kp A          &kp O      &kp E    &kp U  &kp I        &kp D      &kp H  &kp T  &kp N  &kp S
+&kp DEL  &kp SEMICOLON  &kp Q      &kp J    &kp K  &kp X        &kp B      &kp M  &kp W  &kp V  &kp Z  &kp BACKSPACE
+                                   &mo 1    &mo 7  &kp SPACE    &kp ENTER  &mo 8  &mo 2
             >;
         };
 
@@ -131,7 +131,7 @@
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans     &trans
         &trans  &trans  &trans  &trans  &trans    &trans  &kp LBKT  &kp RBKT  &kp EQUAL  &kp MINUS
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp FSLH  &kp BSLH  &kp GRAVE  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp FSLH  &kp BSLH  &kp GRAVE  &kp NON_US_HASH  &trans
                         &mo 9   &trans  &trans    &trans  &trans    &trans
             >;
         };
