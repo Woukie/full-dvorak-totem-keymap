@@ -1,6 +1,6 @@
-# Full Dvorak TOTEM Config
+# Full Dvorak TOTEM Keymap
 
-This layout is faithful to the original Dvorak layout for alphabetic keys. All key combinations possible on a standard keyboard are possible in this keymap with minimal cognitive load on the user.
+This layout is faithful to the original Dvorak layout for alphabetic keys. All key combinations possible on a standard keyboard are possible in this keymap with minimal effort on the user.
 
 The following features are implemented in their own layers
 - Alphabet
@@ -34,4 +34,4 @@ Additional layers that have modifier combinations, like navigation, have been ma
 - The macros layer is intended to be modified.
 - I am hesitant to modify thumb keys across layers out of preference, however, the space and enter key (depending on side) are safe to overwrite within the modifier layer as well as the opposite modifier key if you are sure you will never want both layers active at the same time.
 - Backspace is on the right as I use it more than delete and my right hand is dominant.
-- Access to media and system controls is within the modifier layers, but can be placed anywhere else without issue. There are no modifier combinations for media and system keys.
+- Media and system layer keys are in the modifier layers but do not have modifier combinations for media and system keys. This means they can be re-located without issue, i.e. assigned to a combo.
